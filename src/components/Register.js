@@ -12,7 +12,7 @@ const Register = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:8000/api/register',
+      await axios.post('https://server-repo-tan.vercel.app/api/register',
          { username,
            email, 
            password });
