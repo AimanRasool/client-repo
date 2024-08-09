@@ -10,7 +10,7 @@ const Home = () => {
     if (token) {
       setAuthenticated(true);
     } else {
-      navigate('/register');
+      navigate('/');
     }
   }, [navigate]);
 
